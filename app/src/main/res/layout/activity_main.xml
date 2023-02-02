@@ -24,7 +24,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="Good Afternoon"
+                android:text="@string/header"
                 android:textColor="@color/white"
                 android:textSize="24sp" />
 
@@ -32,27 +32,31 @@
             <TableRow
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center|right">
+                android:layout_gravity="center|right"
+                tools:ignore="RtlHardcoded">
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:src="@drawable/notification"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_marginLeft="30dp"
                     android:src="@drawable/clock"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"
+                    android:contentDescription="@string/todo" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_marginLeft="30dp"
                     android:src="@drawable/settings"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"
+                    android:contentDescription="@string/todo" />
 
             </TableRow>
 
@@ -71,7 +75,7 @@
                 <TableRow
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="#2B2B2B"
                     android:orientation="horizontal">
 
@@ -79,12 +83,13 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/belac" />
+                        android:src="@drawable/belac"
+                        android:contentDescription="@string/todo" />
 
                     <TextView
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:text="belac"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/card_profile_name"
                         android:textColor="@color/white" />
                 </TableRow>
 
@@ -92,20 +97,22 @@
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
                     android:background="#2B2B2B"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
 
 
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/belac" />
+                        android:src="@drawable/belac"
+                        android:contentDescription="@string/todo" />
 
                     <TextView
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="belac"
+                        android:text="@string/card_profile_name"
                         android:textColor="@color/white" />
                 </TableRow>
 
@@ -121,7 +128,7 @@
                 <TableRow
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="#2B2B2B"
                     android:orientation="horizontal">
 
@@ -129,12 +136,13 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/belac" />
+                        android:src="@drawable/belac"
+                        android:contentDescription="@string/todo" />
 
                     <TextView
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:text="belac"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/card_profile_name"
                         android:textColor="@color/white" />
                 </TableRow>
 
@@ -142,26 +150,27 @@
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
                     android:background="#2B2B2B"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
 
 
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/belac" />
+                        android:src="@drawable/belac"
+                        android:contentDescription="@string/todo" />
 
                     <TextView
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="belac"
+                        android:text="@string/card_profile_name"
                         android:textColor="@color/white" />
                 </TableRow>
 
 
             </FrameLayout>
-
 
             <FrameLayout
                 android:layout_width="wrap_content"
@@ -171,7 +180,7 @@
                 <TableRow
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
                     android:background="#2B2B2B"
                     android:orientation="horizontal">
 
@@ -179,12 +188,13 @@
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/belac" />
+                        android:src="@drawable/belac"
+                        android:contentDescription="@string/todo" />
 
                     <TextView
                         android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:text="belac"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/card_profile_name"
                         android:textColor="@color/white" />
                 </TableRow>
 
@@ -192,20 +202,22 @@
                     android:layout_width="180dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="right"
-                    android:layout_marginRight="20dp"
+                    android:layout_marginEnd="20dp"
                     android:background="#2B2B2B"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
 
 
                     <ImageView
                         android:layout_width="50dp"
                         android:layout_height="50dp"
-                        android:src="@drawable/belac" />
+                        android:src="@drawable/belac"
+                        android:contentDescription="@string/todo" />
 
                     <TextView
                         android:layout_gravity="center"
                         android:layout_marginLeft="10dp"
-                        android:text="belac"
+                        android:text="@string/card_profile_name"
                         android:textColor="@color/white" />
                 </TableRow>
 
@@ -218,10 +230,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="Today's biggest hits"
+            android:text="@string/card_title"
             android:textColor="@color/white"
             android:textSize="24sp" />
 
@@ -240,68 +252,68 @@
                     <ImageButton
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:adjustViewBounds="true"
                         android:background="#55000000"
-                        android:contentDescription="icon"
+                        android:contentDescription="@string/todo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/icon"></ImageButton>
+                        android:src="@drawable/icon"/>
 
                     <ImageButton
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:adjustViewBounds="true"
                         android:background="#55000000"
-                        android:contentDescription="icon"
+                        android:contentDescription="@string/todo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/icon"></ImageButton>
+                        android:src="@drawable/icon"/>
 
                     <ImageButton
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:adjustViewBounds="true"
                         android:background="#55000000"
-                        android:contentDescription="icon"
+                        android:contentDescription="@string/todo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/icon"></ImageButton>
+                        android:src="@drawable/icon"/>
 
                     <ImageButton
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:adjustViewBounds="true"
                         android:background="#55000000"
-                        android:contentDescription="icon"
+                        android:contentDescription="@string/todo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/icon"></ImageButton>
+                        android:src="@drawable/icon"/>
 
                     <ImageButton
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:adjustViewBounds="true"
                         android:background="#55000000"
-                        android:contentDescription="icon"
+                        android:contentDescription="@string/todo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/icon"></ImageButton>
+                        android:src="@drawable/icon"/>
 
                     <ImageButton
                         android:layout_width="160dp"
                         android:layout_height="160dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:adjustViewBounds="true"
                         android:background="#55000000"
-                        android:contentDescription="icon"
+                        android:contentDescription="@string/todo"
                         android:scaleType="centerCrop"
-                        android:src="@drawable/icon"></ImageButton>
+                        android:src="@drawable/icon"/>
 
                 </TableRow>
 
@@ -310,60 +322,60 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Kordhel, Joji, SZA,"
+                        android:text="@string/card_desc_top"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Kordhel, Joji, SZA,"
+                        android:text="@string/card_desc_top"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Kordhel, Joji, SZA,"
+                        android:text="@string/card_desc_top"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Kordhel, Joji, SZA,"
+                        android:text="@string/card_desc_top"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Kordhel, Joji, SZA,"
+                        android:text="@string/card_desc_top"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Kordhel, Joji, SZA,"
+                        android:text="@string/card_desc_top"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
@@ -374,60 +386,60 @@
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Arctic Monkeys, Payung Teduh"
+                        android:text="@string/card_desc_bottom"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Arctic Monkeys, Payung Teduh"
+                        android:text="@string/card_desc_bottom"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Arctic Monkeys, Payung Teduh"
+                        android:text="@string/card_desc_bottom"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Arctic Monkeys, Payung Teduh"
+                        android:text="@string/card_desc_bottom"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Arctic Monkeys, Payung Teduh"
+                        android:text="@string/card_desc_bottom"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
 
                     <TextView
                         android:layout_width="170dp"
                         android:layout_height="20dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="15dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="15dp"
                         android:gravity="bottom"
-                        android:text="Arctic Monkeys, Payung Teduh"
+                        android:text="@string/card_desc_bottom"
                         android:textColor="@color/white"
                         android:textSize="12sp" />
                 </TableRow>
@@ -441,7 +453,8 @@
             android:layout_width="300dp"
             android:layout_height="3dp"
             android:background="@drawable/rounded_bg"
-            app:tint="@color/white" />
+            app:tint="@color/white"
+            android:contentDescription="@string/todo" />
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -464,7 +477,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center|top"
                 android:fontFamily="sans-serif"
-                android:text="My Profile"
+                android:text="@string/profile_title"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -482,7 +495,7 @@
                 android:layout_gravity="center|top"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Hi, I'm Anby"
+                android:text="@string/profile_desc"
                 android:textColor="@color/white"
                 android:textSize="20sp" />
 
@@ -492,7 +505,7 @@
                 android:layout_gravity="center|top"
                 android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Muhammad Ainuriyansyah Anbya Yusuf"
+                android:text="@string/profile_name"
                 android:textColor="#AEAEAE"
                 android:textSize="12sp" />
 
@@ -510,29 +523,33 @@
                     android:layout_gravity="left"
                     android:layout_marginRight="5dp"
                     android:src="@drawable/telephone"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"
+                    android:contentDescription="@string/todo"
+                    tools:ignore="RtlHardcoded" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginRight="10dp"
-                    android:text="+6281259674974"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/dial_phone"
                     android:textColor="@color/white" />
 
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"
                     android:src="@drawable/instagramm"
-                    app:tint="@color/white" />
+                    app:tint="@color/white"
+                    android:contentDescription="@string/todo" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
                     android:gravity="right"
-                    android:text="anbyayusuf_"
-                    android:textColor="@color/white" />
+                    android:text="@string/profile_insta"
+                    android:textColor="@color/white"
+                    tools:ignore="RtlHardcoded" />
 
             </TableRow>
 
@@ -541,7 +558,7 @@
                 android:layout_height="wrap_content"
 
                android:gravity="center"
-                android:text="Hire me "
+                android:text="@string/profile_extra_desc"
                 android:textColor="#BAF7FF01"
                 android:paddingBottom="20dp"/>
         </TableLayout>
