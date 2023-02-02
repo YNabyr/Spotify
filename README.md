@@ -1,5 +1,5 @@
 # Spotify
 
-![](src/img/ss.png)
+![alt text](img/ss.png)
 
 Spotify in Ohio 💀
