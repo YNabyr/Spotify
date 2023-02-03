@@ -21,12 +21,8 @@
             android:layout_margin="20dp">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:text="@string/header"
-                android:textColor="@color/white"
-                android:textSize="24sp" />
+                style="@style/TextHeader"
+                android:text="@string/header" />
 
 
             <TableRow
@@ -38,25 +34,25 @@
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+                    android:contentDescription="@string/todo"
                     android:src="@drawable/notification"
-                    app:tint="@color/white"
-                    android:contentDescription="@string/todo" />
+                    app:tint="@color/white" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_marginLeft="30dp"
+                    android:contentDescription="@string/todo"
                     android:src="@drawable/clock"
-                    app:tint="@color/white"
-                    android:contentDescription="@string/todo" />
+                    app:tint="@color/white" />
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_marginLeft="30dp"
+                    android:contentDescription="@string/todo"
                     android:src="@drawable/settings"
-                    app:tint="@color/white"
-                    android:contentDescription="@string/todo" />
+                    app:tint="@color/white" />
 
             </TableRow>
 
@@ -79,18 +75,14 @@
                     android:background="#2B2B2B"
                     android:orientation="horizontal">
 
-
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/belac"
-                        android:contentDescription="@string/todo" />
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
 
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/card_profile_name"
-                        android:textColor="@color/white" />
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
                 </TableRow>
 
                 <TableRow
@@ -102,74 +94,15 @@
                     android:orientation="horizontal"
                     tools:ignore="RtlHardcoded">
 
-
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/belac"
-                        android:contentDescription="@string/todo" />
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
 
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/card_profile_name"
-                        android:textColor="@color/white" />
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
                 </TableRow>
-
-
-            </FrameLayout>
-
-
-            <FrameLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp">
-
-                <TableRow
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:background="#2B2B2B"
-                    android:orientation="horizontal">
-
-
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/belac"
-                        android:contentDescription="@string/todo" />
-
-                    <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/card_profile_name"
-                        android:textColor="@color/white" />
-                </TableRow>
-
-                <TableRow
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginEnd="20dp"
-                    android:background="#2B2B2B"
-                    android:orientation="horizontal"
-                    tools:ignore="RtlHardcoded">
-
-
-                    <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/belac"
-                        android:contentDescription="@string/todo" />
-
-                    <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/card_profile_name"
-                        android:textColor="@color/white" />
-                </TableRow>
-
-
             </FrameLayout>
 
             <FrameLayout
@@ -184,18 +117,14 @@
                     android:background="#2B2B2B"
                     android:orientation="horizontal">
 
-
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/belac"
-                        android:contentDescription="@string/todo" />
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
 
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginStart="10dp"
-                        android:text="@string/card_profile_name"
-                        android:textColor="@color/white" />
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
                 </TableRow>
 
                 <TableRow
@@ -207,35 +136,67 @@
                     android:orientation="horizontal"
                     tools:ignore="RtlHardcoded">
 
-
                     <ImageView
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:src="@drawable/belac"
-                        android:contentDescription="@string/todo" />
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
 
                     <TextView
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:text="@string/card_profile_name"
-                        android:textColor="@color/white" />
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
                 </TableRow>
-
-
             </FrameLayout>
 
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+            </FrameLayout>
         </TableLayout>
 
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            style="@style/TextHeader"
             android:layout_marginStart="20dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
-            android:text="@string/card_title"
-            android:textColor="@color/white"
-            android:textSize="24sp" />
+            android:text="@string/card_title" />
 
 
         <HorizontalScrollView
@@ -250,236 +211,119 @@
                 <TableRow>
 
                     <ImageButton
-                        android:layout_width="160dp"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:adjustViewBounds="true"
-                        android:background="#55000000"
+                        style="@style/CardImg"
                         android:contentDescription="@string/todo"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon"/>
+                        android:src="@drawable/icon" />
 
                     <ImageButton
-                        android:layout_width="160dp"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:adjustViewBounds="true"
-                        android:background="#55000000"
+                        style="@style/CardImg"
                         android:contentDescription="@string/todo"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon"/>
+                        android:src="@drawable/icon" />
 
                     <ImageButton
-                        android:layout_width="160dp"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:adjustViewBounds="true"
-                        android:background="#55000000"
+                        style="@style/CardImg"
                         android:contentDescription="@string/todo"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon"/>
+                        android:src="@drawable/icon" />
 
                     <ImageButton
-                        android:layout_width="160dp"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:adjustViewBounds="true"
-                        android:background="#55000000"
+                        style="@style/CardImg"
                         android:contentDescription="@string/todo"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon"/>
+                        android:src="@drawable/icon" />
 
                     <ImageButton
-                        android:layout_width="160dp"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:adjustViewBounds="true"
-                        android:background="#55000000"
+                        style="@style/CardImg"
                         android:contentDescription="@string/todo"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon"/>
+                        android:src="@drawable/icon" />
 
                     <ImageButton
-                        android:layout_width="160dp"
-                        android:layout_height="160dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:adjustViewBounds="true"
-                        android:background="#55000000"
+                        style="@style/CardImg"
                         android:contentDescription="@string/todo"
-                        android:scaleType="centerCrop"
-                        android:src="@drawable/icon"/>
+                        android:src="@drawable/icon" />
 
                 </TableRow>
 
                 <TableRow>
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_top"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_top"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_top"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_top"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_top"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_top"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
 
                 </TableRow>
 
                 <TableRow>
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_bottom"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_bottom"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_bottom"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_bottom"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_bottom"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
 
                     <TextView
-                        android:layout_width="170dp"
-                        android:layout_height="20dp"
-                        android:layout_marginStart="20dp"
-                        android:layout_marginEnd="15dp"
-                        android:gravity="bottom"
-                        android:text="@string/card_desc_bottom"
-                        android:textColor="@color/white"
-                        android:textSize="12sp" />
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
                 </TableRow>
 
             </TableLayout>
         </HorizontalScrollView>
 
         <ImageView
-            android:layout_marginTop="20dp"
-            android:layout_gravity="center"
             android:layout_width="300dp"
             android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:background="@drawable/rounded_bg"
-            app:tint="@color/white"
-            android:contentDescription="@string/todo" />
+            android:contentDescription="@string/todo"
+            app:tint="@color/white" />
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="20dp"
-                android:padding="5dp"
+                style="@style/MyProfileImg"
                 android:src="@drawable/ppanime"
                 app:shapeAppearanceOverlay="@style/circleImageView"
                 app:strokeColor="#FFFFFF"
                 app:strokeWidth="2dp" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center|top"
-                android:fontFamily="sans-serif"
-                android:text="@string/profile_title"
-                android:textColor="@color/white"
-                android:textSize="20sp" />
+                style="@style/MyProfileTitle"
+                android:text="@string/profile_title" />
 
 
         </FrameLayout>
@@ -522,9 +366,9 @@
                     android:layout_height="20dp"
                     android:layout_gravity="left"
                     android:layout_marginRight="5dp"
+                    android:contentDescription="@string/todo"
                     android:src="@drawable/telephone"
                     app:tint="@color/white"
-                    android:contentDescription="@string/todo"
                     tools:ignore="RtlHardcoded" />
 
                 <TextView
@@ -538,9 +382,9 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:layout_marginStart="15dp"
+                    android:contentDescription="@string/todo"
                     android:src="@drawable/instagramm"
-                    app:tint="@color/white"
-                    android:contentDescription="@string/todo" />
+                    app:tint="@color/white" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -556,11 +400,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
-               android:gravity="center"
+                android:gravity="center"
+                android:paddingBottom="20dp"
                 android:text="@string/profile_extra_desc"
-                android:textColor="#BAF7FF01"
-                android:paddingBottom="20dp"/>
+                android:textColor="#BAF7FF01" />
         </TableLayout>
 
     </LinearLayout>
